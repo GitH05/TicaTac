@@ -14,7 +14,6 @@ const winningCombinations = [
   [0, 4, 8],
   [2, 4, 9],
 ];
-
 function checkWinner() {
   for (let combo of winningCombinations) {
     const [a, b, c] = combo;
